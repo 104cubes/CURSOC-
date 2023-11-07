@@ -1,11 +1,15 @@
 #include <iostream>
 #include <locale.h>
 #include <string>
+#include <windows.h>
 
 using namespace std;
 
-int main() {
-    setlocale(LC_ALL, "es-ES.UTF-8");
+int main()
+{
+    SetConsoleOutputCP(1252);
+    SetConsoleCP(1252);
+    setlocale(LC_CTYPE, "Spanish");
     int sumaUsuario;
     int i = 0;
     do {
