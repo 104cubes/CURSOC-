@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    // CAMBIOS PARA GIT
     SetConsoleOutputCP(1252);
     SetConsoleCP(1252);
     setlocale(LC_CTYPE, "Spanish");
