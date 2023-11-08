@@ -7,7 +7,6 @@ using namespace std;
 
 int main()
 {
-
     //comit de prueba
     SetConsoleOutputCP(1252);
     SetConsoleCP(1252);
