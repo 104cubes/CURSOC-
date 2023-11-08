@@ -6,7 +6,7 @@ using namespace std;
 int main(void)
 {
 	double cateto1, cateto2;
-	// o float
+	// o float ---
 	cout << "Introduce cateto 1: ";
 	cin >> cateto1;
 	cout << "Introduce cateto 2: ";
