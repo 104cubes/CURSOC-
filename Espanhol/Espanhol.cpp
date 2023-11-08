@@ -7,6 +7,10 @@ using namespace std;
 
 int main()
 {
+
+
+
+
     // subida prueba clase
     SetConsoleOutputCP(1252);
     SetConsoleCP(1252);
