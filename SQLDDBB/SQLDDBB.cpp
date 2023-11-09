@@ -3,6 +3,7 @@
 #include <sqlext.h>
 
 int main() {
+
     // Definir variables para la conexión y el statement
     SQLHENV hEnv;
     SQLHDBC hDbc;
