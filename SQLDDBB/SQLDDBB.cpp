@@ -15,6 +15,7 @@ int main() {
     // Inicializar la conexión
     SQLAllocHandle(SQL_HANDLE_DBC, hEnv, &hDbc);
 
+
     // info DSN "DSN=MySQL;UID=pep;PWD=123456;DATABASE=base;SERVER=localhost"
     SQLDriverConnect(hDbc, NULL, (SQLCHAR*)"DSN=TU_DSN;UID=TU_USUARIO;PWD=TU_CONTRASENA", SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
 
