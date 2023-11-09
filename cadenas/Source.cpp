@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    //comit de prueba
+    //comit de pruebalkjshvfw 
     SetConsoleOutputCP(1252);
     SetConsoleCP(1252);
     setlocale(LC_CTYPE, "Spanish");
