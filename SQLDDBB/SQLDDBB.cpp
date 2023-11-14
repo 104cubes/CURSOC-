@@ -3,20 +3,17 @@
 #include <sqlext.h>
 
 int main() {
-
     // Definir variables para la conexión y el statement
     SQLHENV hEnv;
     SQLHDBC hDbc;
     SQLHSTMT hStmt;
+
     // Inicializar el entorno
     SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &hEnv);
     SQLSetEnvAttr(hEnv, SQL_ATTR_ODBC_VERSION, (SQLPOINTER)SQL_OV_ODBC3, 0);
 
     // Inicializar la conexión
     SQLAllocHandle(SQL_HANDLE_DBC, hEnv, &hDbc);
-
-
-    // info DSN "DSN=MySQL;UID=nombreusuario;PWD=123456;DATABASE=base;SERVER=localhost"
     SQLDriverConnect(hDbc, NULL, (SQLCHAR*)"DSN=TU_DSN;UID=TU_USUARIO;PWD=TU_CONTRASENA", SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
 
     // Crear un statement

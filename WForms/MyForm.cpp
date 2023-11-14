@@ -14,9 +14,4 @@ int main()
     // subida prueba clase
     SetConsoleOutputCP(1252);
     SetConsoleCP(1252);
-    
-
-    cout << "hola Ñoñó";
-    
-    return 0;
 }
