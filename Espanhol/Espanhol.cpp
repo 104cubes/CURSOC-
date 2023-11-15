@@ -8,7 +8,6 @@ using namespace std;
 int main()
 {
 
-
     setlocale(LC_ALL, "ES_es.UTF-8");
 
     // subida prueba clase
